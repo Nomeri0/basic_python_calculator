@@ -37,7 +37,7 @@ while True: #wrap the code in while loop to keep the calculator running
     print (num1, operator, num2, '=', result)
 
     # Ask if user wants to perform another calculation
-    continue_calculation = input('Dp you want to perform another calculation? (y/n): ')
+    continue_calculation = input('Do you want to perform another calculation? (y/n): ')
 
     if continue_calculation.lower() != 'y': #If the user input something other than 'y', exit calculator.
         print('Exiting calculator...')
